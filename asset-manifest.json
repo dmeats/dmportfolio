@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/dmportfolio/static/css/main.de420173.chunk.css",
+    "main.js": "/dmportfolio/static/js/main.b79c63d3.chunk.js",
+    "main.js.map": "/dmportfolio/static/js/main.b79c63d3.chunk.js.map",
+    "runtime-main.js": "/dmportfolio/static/js/runtime-main.d1a78304.js",
+    "runtime-main.js.map": "/dmportfolio/static/js/runtime-main.d1a78304.js.map",
+    "static/js/2.6e4bcfc5.chunk.js": "/dmportfolio/static/js/2.6e4bcfc5.chunk.js",
+    "static/js/2.6e4bcfc5.chunk.js.map": "/dmportfolio/static/js/2.6e4bcfc5.chunk.js.map",
+    "static/js/3.30589016.chunk.js": "/dmportfolio/static/js/3.30589016.chunk.js",
+    "static/js/3.30589016.chunk.js.map": "/dmportfolio/static/js/3.30589016.chunk.js.map",
+    "index.html": "/dmportfolio/index.html",
+    "static/css/main.de420173.chunk.css.map": "/dmportfolio/static/css/main.de420173.chunk.css.map",
+    "static/js/2.6e4bcfc5.chunk.js.LICENSE.txt": "/dmportfolio/static/js/2.6e4bcfc5.chunk.js.LICENSE.txt",
+    "static/media/Air_quality.195978a1.png": "/dmportfolio/static/media/Air_quality.195978a1.png",
+    "static/media/IOT_manuf.ae1d2106.png": "/dmportfolio/static/media/IOT_manuf.ae1d2106.png",
+    "static/media/ProcessMap.1f941c5a.png": "/dmportfolio/static/media/ProcessMap.1f941c5a.png",
+    "static/media/VegApp.b8c93612.png": "/dmportfolio/static/media/VegApp.b8c93612.png",
+    "static/media/codescreen.428aa712.png": "/dmportfolio/static/media/codescreen.428aa712.png",
+    "static/media/dbmodel.250341c3.png": "/dmportfolio/static/media/dbmodel.250341c3.png",
+    "static/media/digital_dash.dc405b20.png": "/dmportfolio/static/media/digital_dash.dc405b20.png",
+    "static/media/drum_machine.f6d10e2b.png": "/dmportfolio/static/media/drum_machine.f6d10e2b.png",
+    "static/media/groceryapp.0699cad9.jpg": "/dmportfolio/static/media/groceryapp.0699cad9.jpg",
+    "static/media/groceryapp.70e2f3dd.png": "/dmportfolio/static/media/groceryapp.70e2f3dd.png",
+    "static/media/paintdetailimg.36611a0e.png": "/dmportfolio/static/media/paintdetailimg.36611a0e.png",
+    "static/media/power_app.28fe6738.png": "/dmportfolio/static/media/power_app.28fe6738.png",
+    "static/media/tbuss3.4f7e5642.png": "/dmportfolio/static/media/tbuss3.4f7e5642.png",
+    "static/media/tpaintboard2.d437c481.png": "/dmportfolio/static/media/tpaintboard2.d437c481.png",
+    "static/media/zone_con.78029cd2.png": "/dmportfolio/static/media/zone_con.78029cd2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1a78304.js",
+    "static/js/2.6e4bcfc5.chunk.js",
+    "static/css/main.de420173.chunk.css",
+    "static/js/main.b79c63d3.chunk.js"
+  ]
+}
