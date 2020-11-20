@@ -1,0 +1,51 @@
+.skillsgrid-container {
+    margin-top:2%;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    background-color:transparent;
+    grid-gap: 40px;
+    padding: 10px;
+    padding-left: 8.5%;
+    padding-right:8.5%;
+    padding-top:40px;
+    height:730px;
+    width:100%;
+    grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+  }
+  @media only screen and (max-width: 1024px) {
+    /* For mobile ipad: */
+    .skillsgrid-container{
+        padding-left:1.5%;
+        padding-right:1.5%;
+        grid-gap: 20px;
+  
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* For mobile ipad: */
+  .skillsgrid-container{
+    margin-top:1%;
+    overflow-y: scroll;
+    grid-gap: 108px;
+    row-gap: 1px;
+    width:100%;
+    padding-top:5px;
+     padding-left: 2%;
+    align-content: start;
+    height:790px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* For mobile ipad: */
+  .skillsgrid-container{
+    margin-top:1%;
+    overflow-y: scroll;
+    grid-gap: 108px;
+    row-gap: 1px;
+    width:100%;
+    padding-top:5px;
+     padding-left: 2%;
+    align-content: start;
+    height:610px;
+  }
+}

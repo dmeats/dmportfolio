@@ -1,0 +1,272 @@
+
+.nav-container {
+    position: fixed;
+    max-width: 100%;
+    
+    z-index: 2;
+  }
+  
+  .desktopiconstyle{
+    width: 10%;
+    height: 10%;
+    
+  }
+  .desktopiconskillsstyle{
+    width: 10%;
+    height: 6%;
+   
+  }
+  .mobileiconstyle{
+    width: 5%;
+    height: 45%;
+    
+  }
+  .mobileiconskillsstyle{
+    width: 4%;
+    height: 43%;
+   
+  }
+  #mboxclicked{
+    background:rgb(130, 206, 209);
+    height:40px;
+    
+    
+  }
+  #mboxnotclicked{
+    background:transparent;
+    height:40px;
+  }
+  .mboxspacing{
+    height:40px;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 50;
+   
+  }
+  .desktopnav {
+   
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    height: 6%;
+    top:0;
+   z-index: 50;
+  }
+  .about_underline{
+    position: absolute;
+    left: 4.1%;
+    top: 38px;
+    width:66px;
+    height: 2px;
+    background-color: rgba(151, 76, 6);
+    z-index: 0;
+    transition: .5s;
+    
+    }
+    .projects_underline{
+       position: absolute;
+       left: 13.4%;
+       top: 38px;
+       width: 87px;
+       height: 2px;
+       background-color: rgba(151, 76, 6);
+       z-index: 0;
+       transition:.5s;
+       
+       
+       }
+       .skills_underline{
+           position: absolute;
+           left: 23.6%;
+           top: 38px;
+           width: 57px;
+           height: 2px;
+           background-color:rgba(151, 76, 6);
+           z-index: 0;
+           transition: .5s;
+         
+           }
+  .icon{
+      position: relative;
+      height:60px;
+      width:60px;
+      background-color: rgb(0, 0, 0);
+      left:85%;
+      padding-top: 5px;
+      color:rgba(151, 76, 6);
+      cursor: pointer;
+      font-size: 40px;
+      
+  }
+
+
+ 
+.sidenav {
+    opacity: .9;
+    
+    height:100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right:0;
+    background-image: linear-gradient(to right, rgb(0, 174, 255), rgb(76, 89, 126));
+    text-align: left;
+    
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 49px;
+    margin-left: 10px;
+    overflow-y: scroll;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    color: rgb(130, 206, 209);
+  }
+
+  .NavLinks{
+    color: #2957D6;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .MobileLinks{
+    color: #03093f;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 4%;
+    width:100%;
+    
+    
+    
+   
+  
+  }
+
+  .homelink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:10px;
+  }
+
+  .projectlink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:8%;
+
+}
+.skillslink{
+  position: fixed;
+  margin-top:.5%;
+  margin-left:17%;
+
+}
+
+@media only screen and (max-width: 320px) {
+  .MobileLinks{
+    color: #03093f;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 4%;
+    width:100%;
+    
+    
+   
+  
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectlink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:11%;
+
+}
+.skillslink{
+  position: fixed;
+  margin-top:.5%;
+  margin-left:24%;
+
+}
+.about_underline{
+  position: absolute;
+  left: 6.3%;
+  top: 38px;
+  width:66px;
+  height: 2px;
+  background-color: rgba(151, 76, 6);
+  z-index: 0;
+  transition: .5s;
+  
+  }
+  .projects_underline{
+     position: absolute;
+     left: 16.4%;
+     top: 38px;
+     width: 87px;
+     height: 2px;
+     background-color: rgba(151, 76, 6);
+     z-index: 0;
+     transition:.5s;
+     
+     
+     }
+     .skills_underline{
+         position: absolute;
+         left: 28.3%;
+         top: 38px;
+         width: 57px;
+         height: 2px;
+         background-color:rgba(151, 76, 6);
+         z-index: 0;
+         transition: .5s;
+       
+         }
+}
+@media only screen and (max-width: 736px) {
+  .desktopnav {
+  display: none;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .projectlink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:10%;
+
+}
+.skillslink{
+  position: fixed;
+  margin-top:.5%;
+  margin-left:21%;
+
+}
+}
+@media only screen and (max-width: 640px) {
+  .projectlink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:18%;
+
+}
+.skillslink{
+  position: fixed;
+  margin-top:.5%;
+  margin-left:40%;
+
+}
+}
+
+
+
+

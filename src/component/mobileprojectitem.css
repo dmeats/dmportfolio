@@ -1,0 +1,77 @@
+
+
+
+.mitem1 { grid-area: mTitle;
+        height: 60px; }
+
+.mitem3 { grid-area: mProjectImage; 
+     height: 410px ;
+     width: 500px;
+}
+.mitem4 { grid-area: mProjectTechnologies;
+         color: rgb(250, 155, 3);
+        width: 100%;}
+.mitem5 { grid-area: mdemobutton;
+          color: white;
+          padding-top:80px ;
+        height:800px;
+        text-align: center;
+        vertical-align: center; }
+.mgrid-container {
+  overflow-y: scroll;
+    margin-top:18% ;
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-areas:
+      'mTitle '
+      'mProjectImage '
+      'mProjectTechnologies '
+      'mdemobutton ';
+    grid-gap: 0px;
+    background-color: transparent;
+    color: rgb(250, 155, 3);
+    padding: 0px;
+    height: 660px;
+    width: 100%;
+  }
+  
+  .mgrid-container > div {
+    background-color: rgba(3, 29, 100, 0.7);
+    text-align: center;
+    padding: 2px 0;
+    font-size: 20px;
+    width: 100%;
+   
+  }
+  .mobileimagesetting{
+    width: 90%;
+    height: 100%; 
+  }
+   
+@media only screen and (min-width: 736px) {
+  /* For mobile phones: */
+  .mgrid-container{
+    margin-top:0% ;
+    
+  }
+  .mitem1 { 
+    height: 30px; }
+}
+@media only screen and (min-width: 640px) {
+  /* For mobile phones: */
+  .mgrid-container{
+    margin-top:0% ;
+    
+  }
+  .mitem1 { 
+    height: 30px; }
+}
+@media only screen and (min-width: 568px) {
+  /* For mobile phones: */
+  .mgrid-container{
+    margin-top:0% ;
+    
+  }
+  .mitem1 { 
+    height: 30px; }
+}
