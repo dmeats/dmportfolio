@@ -32,7 +32,7 @@ const MobileProjectItem = (props) => {
             
             <div className='mitem5'> 
             <div>               
-            <button className='demobutton'><a href={demolink} className='demobuttonlink'><p>{buttonname}</p></a></button>
+            <button className='mobiledemobutton'><a href={demolink} className='demobuttonlink' target="_blank"><div className='divmobiledemobutton'><p>{buttonname}</p></div></a></button>
             </div>
             </div> 
                     

@@ -19,7 +19,7 @@
 .item2 { grid-area: closebutton; }
 .item3 { grid-area: ProjectImage; }
 .item4 { grid-area: ProjectTechnologies;
-         color: rgb(250, 155, 3);}
+         color: white;}
 .item5 { grid-area: demobutton;
           color: white; }
 
@@ -33,7 +33,7 @@
     'demobutton demobutton demobutton demobutton';
   grid-gap: 0px;
   background-color: #0b0e16;
-  color: rgb(250, 155, 3);
+  color: white;
   padding: 0px;
 }
 
@@ -49,8 +49,25 @@
   background-color: transparent;
   text-decoration: none;
 }
-.demobutton{
-  background-color: rgb(180, 97, 3);
-  width: 70px;
-  height: 35px;
+.pdivmobiledemobutton{
+  width: 98%;
+  height: 80%;
+  background-color: rgb(179, 85, 9);
+  margin-left:3px;
+  color: rgb(228, 224, 9);
+  vertical-align: center;
+  margin-top:1px;
+  padding-top: 5%;
+  font-size: 20px;
+  border-radius: 45px;
+}
+.pmobiledemobutton{
+  width: 34%;
+  height: 80px;
+  background-color: rgb(77, 48, 2);
+  margin-left:10px;
+  color: white;
+  vertical-align: center;
+  margin-top:2px;
+  border-radius: 45px;
 }

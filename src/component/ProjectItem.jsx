@@ -51,7 +51,9 @@ const ProjectItem = (props) => {
             </div> 
             
             <div className='item5'>                
-            <button className='demobutton'><a href={demolink} className='demobuttonlink'><p>{buttonname}</p></a></button>
+            <div>               
+            <button className='pmobiledemobutton'><a href={demolink} className='demobuttonlink' target="_blank"><div className='pdivmobiledemobutton'><p>{buttonname}</p></div></a></button>
+            </div>
             </div> 
                     
        </div>           

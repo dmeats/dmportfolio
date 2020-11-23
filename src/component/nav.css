@@ -29,6 +29,7 @@
   #mboxclicked{
     background:rgb(130, 206, 209);
     height:40px;
+    color:rgb(4, 1, 39);
     
     
   }
@@ -105,7 +106,9 @@
   }
 
 
- 
+  #mySidenav {
+    height:800px;
+  }
 .sidenav {
     opacity: .9;
     
@@ -123,24 +126,61 @@
     margin-left: 10px;
     overflow-y: scroll;
   }
-  .sidenav .closebtn {
+  .sidenav .staticclosebtn {
     position: absolute;
     top: 0;
     right: 15px;
     font-size: 30px;
     margin-left: 50px;
     cursor: pointer;
-    color: rgb(130, 206, 209);
+    color: white;
   }
-
+  .rotateclosebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    color:white;
+    
+    animation-name: closerotatebutton;
+    animation-duration: .9s;
+  }
+  .rotateopenclosebtn {
+    position: absolute;
+    top: 1px;
+    right: 15px;
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    color:white;
+    
+    animation-name: openrotatebutton;
+    animation-duration: .9s;
+  }
+  
+@keyframes closerotatebutton {
+  0% {transform: rotate(0deg);}
+ 
+  100% {transform: rotate(180deg);}
+  
+}
+  
+@keyframes openrotatebutton {
+  0% {transform: rotate(0deg);}
+ 
+  100% {transform: rotate(-360deg);}
+  
+}
   .NavLinks{
-    color: #2957D6;
+    color: #ffffff;
     font-size: 23px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .MobileLinks{
-    color: #03093f;
+    color: #ffffff;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 4%;
@@ -224,6 +264,55 @@
      .skills_underline{
          position: absolute;
          left: 28.3%;
+         top: 38px;
+         width: 57px;
+         height: 2px;
+         background-color:rgba(151, 76, 6);
+         z-index: 0;
+         transition: .5s;
+       
+         }
+}
+
+@media only screen and (max-width: 862px) {
+  .projectlink{
+    position: fixed;
+    margin-top:.5%;
+    margin-left:13%;
+
+}
+.skillslink{
+  position: fixed;
+  margin-top:.5%;
+  margin-left:29%;
+
+}
+.about_underline{
+  position: absolute;
+  left: 7.4%;
+  top: 38px;
+  width:66px;
+  height: 2px;
+  background-color: rgba(151, 76, 6);
+  z-index: 0;
+  transition: .5s;
+  
+  }
+  .projects_underline{
+     position: absolute;
+     left: 19.6%;
+     top: 38px;
+     width: 87px;
+     height: 2px;
+     background-color: rgba(151, 76, 6);
+     z-index: 0;
+     transition:.5s;
+     
+     
+     }
+     .skills_underline{
+         position: absolute;
+         left: 33.6%;
          top: 38px;
          width: 57px;
          height: 2px;

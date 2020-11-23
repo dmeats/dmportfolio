@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg8"
    version="1.1"
    viewBox="0 0 32 32"
    height="32mm"
-   width="32mm">
+   width="32mm"
+   sodipodi:docname="home.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview1405"
+     showgrid="false"
+     inkscape:zoom="1.9513021"
+     inkscape:cx="60.472441"
+     inkscape:cy="60.472441"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
   <defs
      id="defs2">
     <linearGradient
@@ -60,4 +84,18 @@
        d="m 16.038834,269.21875 -10.0857092,9.5439 H 25.976012 Z"
        style="fill:#ae4c05;stroke:#000000;stroke-width:0.26899651px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1" />
   </g>
+  <path
+     style="fill:#974c06;fill-opacity:1;stroke:#000000;stroke-width:0.10296867;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 6.2915254,13.625493 c 0,-0.110896 9.6728696,-9.2051541 9.7908216,-9.2051541 0.103441,0 6.343358,5.8977761 9.017233,8.5228091 l 0.748174,0.734507 H 16.06964 c -5.377963,0 -9.7781146,-0.02347 -9.7781146,-0.05216 z"
+     id="path1950"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+  <path
+     style="fill:#974c06;fill-opacity:1;stroke:#000000;stroke-width:0.10296867;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 9.1538461,19.599615 v -5.785823 h 6.9513509 6.95135 v 5.785823 5.785822 h -6.95135 -6.9513509 z"
+     id="path1952"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
 </svg>

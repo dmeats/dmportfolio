@@ -35,7 +35,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mdigitaldash} projectname='Digital Dash Board' tech='Designed for desktop - React, CSS, SVG, JSON, JavaScript' imagestyle='l' TopicHeading='Technolgies used:' mobileimage={mdigitaldash} boxsize='#' demolink='https://dmeats.github.io/react-digital-dash-app/' buttonname='Demo'/>
+                    <MobileProjectItem  picture={mdigitaldash} projectname='Digital Dash Board' tech='Designed for desktop - React, CSS, SVG, JSON, JavaScript' imagestyle='l' TopicHeading='Technologies used:' mobileimage={mdigitaldash} boxsize='#' demolink='https://dmeats.github.io/react-digital-dash-app/' buttonname='Demo'/>
                     </div>
             </div>
             </div>
@@ -47,7 +47,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={zone_con} projectname='Automation control App' tech='Vue, Node, Socket.io, CSS, JSON, JavaScript' imagestyle='mobilemodalimg' TopicHeading='Technolgies used:' mobileimage={zone_con} boxsize='#' demolink='#' buttonname='No-demo'/>
+                    <MobileProjectItem  picture={zone_con} projectname='Automation control App' tech='Vue, Node, Socket.io, CSS, JSON, JavaScript' imagestyle='mobilemodalimg' TopicHeading='Technologies used:' mobileimage={zone_con} boxsize='#' demolink='#' buttonname='No-demo'/>
                </div>
             </div>
             </div>
@@ -59,7 +59,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mdrum_machine} projectname='Digital Beat Kit' tech='React, CSS, HTML, JavaScript, audio' imagestyle='l' TopicHeading='Technolgies used:' mobileimage={mdrum_machine} boxsize='#' demolink='https://dmeats.github.io/drum-machine-mk3/' buttonname='Demo'/>
+                    <MobileProjectItem  picture={mdrum_machine} projectname='Digital Beat Kit' tech='React, CSS, HTML, JavaScript, audio' imagestyle='l' TopicHeading='Technologies used:' mobileimage={mdrum_machine} boxsize='#' demolink='https://dmeats.github.io/drum-machine-mk3/' buttonname='Demo'/>
                     </div>
             </div>
             </div>
@@ -71,7 +71,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mgroceryapp} projectname='Grocery App' tech='React, CSS, Bootsrap, JSON, JavaScript' imagestyle='l' TopicHeading='Technolgies used:' mobileimage={mgroceryapp} boxsize='#' demolink='https://dmeats.github.io/ed-grocerylist/' buttonname='Demo'/>
+                    <MobileProjectItem  picture={mgroceryapp} projectname='Grocery App' tech='React, CSS, Bootsrap, JSON, JavaScript' imagestyle='l' TopicHeading='Technologies used:' mobileimage={mgroceryapp} boxsize='#' demolink='https://dmeats.github.io/ed-grocerylist/' buttonname='Demo'/>
  
                     </div>
             </div>
@@ -84,7 +84,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mIOT_manuf} projectname='IOT Manufacturing Line App' tech='Designed for desktop - Vue, MySQL, Node, CSS, JSON, JavaScript,Express,API' imagestyle='desktopmodalimg' TopicHeading='Technolgies used:' mobileimage={mIOT_manuf} boxsize='modal-box' demolink='#' buttonname='No-demo'/>
+                    <MobileProjectItem  picture={mIOT_manuf} projectname='IOT Manufacturing Line App' tech='Designed for desktop - Vue, MySQL, Node, CSS, JSON, JavaScript,Express,API' imagestyle='desktopmodalimg' TopicHeading='Technologies used:' mobileimage={mIOT_manuf} boxsize='modal-box' demolink='#' buttonname='No-demo'/>
                 
                     </div>
             </div>
@@ -97,7 +97,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mpower_app} projectname='Power Energy App' tech='React, MySQL, CSS, SVG, JSON, JavaScript,API' imagestyle='twoimgmobilemodalimg' TopicHeading='Technolgies used:' mobileimage={mpower_app} boxsize='modal-box' demolink='#' buttonname='No-demo'/>
+                    <MobileProjectItem  picture={mpower_app} projectname='Power Energy App' tech='React, MySQL, CSS, SVG, JSON, JavaScript,API' imagestyle='twoimgmobilemodalimg' TopicHeading='Technologies used:' mobileimage={mpower_app} boxsize='modal-box' demolink='#' buttonname='No-demo'/>
                
                     </div>
             </div>
@@ -110,7 +110,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mAir_quality} projectname='Air Quality Graphing App' tech='React, CSS, SVG, JSON, JavaScript' imagestyle='mobilemodalimg' TopicHeading='Technolgies used:' mobileimage={mAir_quality} boxsize='mobile-modal-box' demolink='#' buttonname='No-demo'/>
+                    <MobileProjectItem  picture={mAir_quality} projectname='Air Quality Graphing App' tech='React, CSS, SVG, JSON, JavaScript' imagestyle='mobilemodalimg' TopicHeading='Technologies used:' mobileimage={mAir_quality} boxsize='mobile-modal-box' demolink='#' buttonname='No-demo'/>
                 
                     </div>
             </div>
@@ -123,7 +123,7 @@ const MProjects = () => {
             
             <div className = 'test-container'>
                     <div className='mproject'>
-                    <MobileProjectItem  picture={mVegApp} projectname='Vegetable Planner App' tech='Designed for desktop - CSS, JavaScript' imagestyle='desktopmodalimg' TopicHeading='Technolgies used:' mobileimage={mVegApp} boxsize='modal-box' demolink='https://dmeats.github.io/JavaScript-Vegetable-Planner-app/' buttonname='Demo'/>
+                    <MobileProjectItem  picture={mVegApp} projectname='Vegetable Planner App' tech='Designed for desktop - CSS, JavaScript' imagestyle='desktopmodalimg' TopicHeading='Technologies used:' mobileimage={mVegApp} boxsize='modal-box' demolink='https://dmeats.github.io/JavaScript-Vegetable-Planner-app/' buttonname='Demo'/>
                
                     </div>
             </div>

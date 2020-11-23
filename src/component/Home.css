@@ -15,10 +15,10 @@
   font-size: 80px;
   top: 35%;
   right: 30%;
-  color: rgb(231, 74, 12); 
+  color:  white; 
   text-shadow: 1px 3px rgb(67, 67, 73);
   animation-name: example;
-  animation-duration: 2s;
+  animation-duration: 1s;
   
 }
 
@@ -29,10 +29,10 @@
   font-size: 80px;
   top: 44%;
   right: 20%;
-  color: rgb(231, 74, 12); 
+  color:  white;; 
   text-shadow: 1px 3px rgb(67, 67, 73);  
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 3s;
   
   
 }
@@ -43,7 +43,7 @@
   font-size: 36px;
   top: 55%;
   right: 22%;
-  color: rgb(231, 74, 12); 
+  color:  white; 
   text-shadow: 1px 2px rgb(41, 41, 38);  
   animation-name: example;
   animation-duration: 3s;
@@ -56,9 +56,9 @@
 
 @keyframes example {
   0% {color: rgb(0, 4, 255);}
-  25% {color: rgb(51, 255, 0);}
-  75% {color: rgb(0, 255, 242);}
-  100% {color: rgb(231, 74, 12); }
+  25% {color: rgb(0, 4, 255);}
+  75% {color: rgb(124, 43, 11);}
+  100% {color: white; }
   
 }
 
@@ -135,6 +135,29 @@
 }
 
 @media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  
+  .Name{ margin-top: 0px;
+    position: fixed;
+    font-size: 30px;
+    top: 38%;
+    right: 20%;
+      }
+      .Title{ margin-top: 0px;
+        position: fixed;
+        font-size: 25px;
+        top: 43%;
+        right: 6%;
+          }
+          .About{ margin-top: 0px;
+            position: fixed;
+            font-size: 12px;
+            top: 50%;
+            right: 2%;
+              }
+  
+}
+@media only screen and (max-width: 348px) {
   /* For mobile phones: */
   
   .Name{ margin-top: 0px;
