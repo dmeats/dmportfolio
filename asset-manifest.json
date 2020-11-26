@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dmportfolio/static/css/main.e38c3e1b.chunk.css",
-    "main.js": "/dmportfolio/static/js/main.33ff36f1.chunk.js",
-    "main.js.map": "/dmportfolio/static/js/main.33ff36f1.chunk.js.map",
+    "main.js": "/dmportfolio/static/js/main.11b0f2a1.chunk.js",
+    "main.js.map": "/dmportfolio/static/js/main.11b0f2a1.chunk.js.map",
     "runtime-main.js": "/dmportfolio/static/js/runtime-main.d1a78304.js",
     "runtime-main.js.map": "/dmportfolio/static/js/runtime-main.d1a78304.js.map",
     "static/js/2.6e4bcfc5.chunk.js": "/dmportfolio/static/js/2.6e4bcfc5.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/drum_machine.f6d10e2b.png": "/dmportfolio/static/media/drum_machine.f6d10e2b.png",
     "static/media/groceryapp.0699cad9.jpg": "/dmportfolio/static/media/groceryapp.0699cad9.jpg",
     "static/media/groceryapp.70e2f3dd.png": "/dmportfolio/static/media/groceryapp.70e2f3dd.png",
-    "static/media/monitor_keyboard.0b4e2a8a.png": "/dmportfolio/static/media/monitor_keyboard.0b4e2a8a.png",
+    "static/media/monitor_keyboard.219da875.png": "/dmportfolio/static/media/monitor_keyboard.219da875.png",
     "static/media/paintdetailimg.36611a0e.png": "/dmportfolio/static/media/paintdetailimg.36611a0e.png",
     "static/media/power_app.28fe6738.png": "/dmportfolio/static/media/power_app.28fe6738.png",
     "static/media/tbuss3.4f7e5642.png": "/dmportfolio/static/media/tbuss3.4f7e5642.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.d1a78304.js",
     "static/js/2.6e4bcfc5.chunk.js",
     "static/css/main.e38c3e1b.chunk.css",
-    "static/js/main.33ff36f1.chunk.js"
+    "static/js/main.11b0f2a1.chunk.js"
   ]
 }
