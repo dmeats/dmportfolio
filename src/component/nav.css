@@ -2,7 +2,7 @@
 .nav-container {
     position: fixed;
     max-width: 100%;
-    
+    background-color: transparent;
     z-index: 2;
   }
   
@@ -42,7 +42,7 @@
   }
   .topnav {
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     position: fixed;
     width: 100%;
     top:0;
@@ -51,7 +51,7 @@
   }
   .desktopnav {
    
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     position: fixed;
     width: 100%;
     height: 6%;
@@ -71,7 +71,7 @@
     }
     .projects_underline{
        position: absolute;
-       left: 13.4%;
+       left: 11.4%;
        top: 38px;
        width: 87px;
        height: 2px;
@@ -83,7 +83,7 @@
        }
        .skills_underline{
            position: absolute;
-           left: 23.6%;
+           left: 19.6%;
            top: 38px;
            width: 57px;
            height: 2px;
@@ -96,7 +96,7 @@
       position: relative;
       height:60px;
       width:60px;
-      background-color: rgb(0, 0, 0);
+      background-color: black;
       left:85%;
       padding-top: 5px;
       color:rgba(151, 76, 6);
@@ -110,7 +110,7 @@
     height:800px;
   }
 .sidenav {
-    opacity: .9;
+    
     
     height:100%;
     position: fixed;
@@ -135,6 +135,10 @@
     cursor: pointer;
     color: white;
   }
+  .xicon{
+    height:23px;
+    width: 23px;
+  }
   .rotateclosebtn {
     position: absolute;
     top: 0;
@@ -143,6 +147,7 @@
     margin-left: 50px;
     cursor: pointer;
     color:white;
+    
     
     animation-name: closerotatebutton;
     animation-duration: .9s;
@@ -223,9 +228,55 @@
    
   
   }
+  .nav-container {
+   
+    background-color: black;
+    
+  }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1366){
+
+  
+.about_underline{
+  position: absolute;
+  left: 6.3%;
+  top: 38px;
+  width:66px;
+  height: 2px;
+  background-color: rgba(151, 76, 6);
+  z-index: 0;
+  transition: .5s;
+  
+  }
+  .projects_underline{
+     position: absolute;
+     left: 16.4%;
+     top: 38px;
+     width: 87px;
+     height: 2px;
+     background-color: rgba(151, 76, 6);
+     z-index: 0;
+     transition:.5s;
+     
+     
+     }
+     .skills_underline{
+         position: absolute;
+         left: 33.3%;
+         top: 38px;
+         width: 57px;
+         height: 2px;
+         background-color:rgba(151, 76, 6);
+         z-index: 0;
+         transition: .5s;
+       
+         }
+
+}
+
+
+@media only screen and (min-width: 958px) {
   .projectlink{
     position: fixed;
     margin-top:.5%;
@@ -340,8 +391,45 @@
   margin-left:21%;
 
 }
+ 
+.about_underline{
+  position: absolute;
+  left: 4.7%;
+  top: 38px;
+  width:66px;
+  height: 2px;
+  background-color: rgba(151, 76, 6);
+  z-index: 0;
+  transition: .5s;
+  
+  }
+  .projects_underline{
+     position: absolute;
+     left: 14.1%;
+     top: 38px;
+     width: 87px;
+     height: 2px;
+     background-color: rgba(151, 76, 6);
+     z-index: 0;
+     transition:.5s;
+     }
+     .skills_underline{
+         position: absolute;
+         left: 24.1%;
+         top: 38px;
+         width: 57px;
+         height: 2px;
+         background-color:rgba(151, 76, 6);
+         z-index: 0;
+         transition: .5s;
+       
+         }
 }
+
 @media only screen and (max-width: 640px) {
+  .topnav{
+    background-color: black;
+  }
   .projectlink{
     position: fixed;
     margin-top:.5%;
@@ -356,6 +444,42 @@
 }
 }
 
+@media only screen and (min-width: 1600px) {
+  .about_underline{
+    position: absolute;
+    left: 4.1%;
+    top: 38px;
+    width:66px;
+    height: 2px;
+    background-color: rgba(151, 76, 6);
+    z-index: 0;
+    transition: .5s;
+    
+    }
+    .projects_underline{
+       position: absolute;
+       left: 13.4%;
+       top: 38px;
+       width: 87px;
+       height: 2px;
+       background-color: rgba(151, 76, 6);
+       z-index: 0;
+       transition:.5s;
+       
+       
+       }
+       .skills_underline{
+           position: absolute;
+           left: 23.6%;
+           top: 38px;
+           width: 57px;
+           height: 2px;
+           background-color:rgba(151, 76, 6);
+           z-index: 0;
+           transition: .5s;
+         
+           }
+}
 
 
 

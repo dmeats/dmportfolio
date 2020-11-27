@@ -1,9 +1,10 @@
-import React,{useContext,useEffect,useRef,useState} from 'react';
+import React,{useContext,useRef,useState,useEffect} from 'react';
 import {Link} from 'react-router-dom'
 import useWindowDimensions from './usewindowsize'
 import Homeicon from '../assets/images/home.png'
 import Projectsicon from '../assets/images/projects.png'
 import Skillsicon from '../assets/images/skills.png'
+import xicon from '../assets/images/xicon.png'
 import {APPLContext} from './../App'
 import './nav.css'
 
@@ -14,15 +15,20 @@ const Nav = () => {
   const aPPLContext = useContext(APPLContext)
   const ElementRef = useRef([]);
   const closebuttonstyle = useRef('staticclosebtn');
+  
 
   // allows the page to be reloaded and new updates to the state to be changed
   let  [,setState]=useState();
-
+  
       function openNav() {
+        
+       
+  
         closebuttonstyle.current='rotateopenclosebtn'
         setState({});
         document.getElementById("mySidenav").style.width = "93%";
         document.getElementById("mySidenav").style.height= "800px";
+        
       }
       
       function closeNav() {
@@ -31,7 +37,10 @@ const Nav = () => {
         document.getElementById("mySidenav").style.width = "0";
         document.getElementById("mySidenav").style.height= "800px";
       }
-
+      useEffect(() => {
+       
+        
+      });
       //changes the background of the selection in the sideout menu by creating an array
       //so that it can identify which skill has been selected by passing back a number
       const boxchanger = (indexnumber) =>{
@@ -71,14 +80,15 @@ console.log(boxchangerArry.length)
       
 
       if(width <= 414){
+        
       //for mobile screen
-    
+      //&#10006; 'x' icon - for side nav replced by x image png
     return(
         <div className='Nav-container'>
             <div className='topnav'>
             <div  className="icon" onClick={() => openNav()}>&#9776;</div>
                     <div id="mySidenav" className='sidenav' onLoad={()=>closeNav()}>
-                        <div className={closebuttonstyle.current} onClick={() => closeNav()}>&#10006;</div>
+                      <div className={closebuttonstyle.current} onClick={() => closeNav()}><img src={xicon} className='xicon'/></div>
                            <div id={ElementRef.current[0]}  onClick={() => boxchanger(0)} className='mboxspacing'><Link exact to={'/'} style={{ textDecoration: 'none' }} className='MobileLinks' onClick={() => closeNav()} id={ElementRef.current[0]}><img src={Homeicon} className='mobileiconstyle'/> Home</Link></div>
                            <div className='MobileLinks'><img src={Projectsicon} className='mobileiconstyle'/>&nbsp;Projects</div>
                            <div id={ElementRef.current[1]}  onClick={() => boxchanger(1)} className='mboxspacing'><Link exact to={'/MProjects/DigitalDashboard'} style={{ textDecoration: 'none' }} className='MobileLinks' onClick={() => closeNav()} id={ElementRef.current[1]}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Dash board</Link></div>

@@ -13,7 +13,7 @@
     width:100%;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
   }
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (min-width: 1024px) {
     /* For mobile ipad: */
     .skillsgrid-container{
         padding-left:1.5%;
@@ -23,6 +23,28 @@
         overflow-y: scroll;
   
   }
+}
+@media only screen and (min-width: 1129px) {
+  /* For mobile ipad: */
+  .skillsgrid-container{
+      padding-left:5.5%;
+      padding-right:5.5%;
+      grid-gap: 45px;
+      grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+      overflow-y: scroll;
+
+}
+}
+@media only screen and (min-width: 1389px) {
+  /* For mobile ipad: */
+  .skillsgrid-container{
+      padding-left:10.5%;
+      padding-right:10.5%;
+      grid-gap: 60px;
+      grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+      overflow-y: scroll;
+
+}
 }
 
 @media only screen and (max-width: 414px) {

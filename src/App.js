@@ -40,7 +40,7 @@ function App() {
 
     <div className="App">
       
-      <Nav/>
+      
       <div className={aboutinfo}>
                 <div className='Name'>
                 <p>DAVID MEATS</p>
@@ -52,6 +52,7 @@ function App() {
                 
                 </div>
         </div>
+        <Nav/>
       <CanvasStarfield/>
       <Switch>
             <Route exact path={'/'} component={Home} />

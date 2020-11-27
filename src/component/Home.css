@@ -56,8 +56,7 @@
 
 @keyframes example {
   0% {color: rgb(0, 4, 255);}
-  25% {color: rgb(0, 4, 255);}
-  75% {color: rgb(124, 43, 11);}
+ 
   100% {color: white; }
   
 }
@@ -244,6 +243,30 @@
         position: fixed;
         font-size: 70px;
         top: 41%;
+        left: 15%;
+          }
+          .About{ margin-top: 0px;
+            position: fixed;
+            font-size: 30px;
+            top: 51%;
+            left: 20%;
+              }
+  
+}
+
+@media only screen and (min-width: 1366px) {
+  /* For mobile phones: */
+  
+  .Name{ margin-top: 0px;
+    position: fixed;
+    font-size: 80px;
+    top: 32%;
+    left: 22%;
+      }
+      .Title{ margin-top: 0px;
+        position: fixed;
+        font-size: 70px;
+        top: 47%;
         left: 15%;
           }
           .About{ margin-top: 0px;

@@ -5,10 +5,11 @@ import {APPLContext} from '../App'
 const About = () => {
     const aPPLContext = useContext(APPLContext)
     let underlinee = 'about_underline'
+    let aboutinfo = 'container'
     aPPLContext.ChangeUnderline(underlinee)
 
     return(
-        <div className='container'>
+        <div className={aboutinfo}>
                 <div className='Name'>
                 <p>DAVID MEATS</p>
                 </div>
@@ -16,7 +17,7 @@ const About = () => {
                 <p>FULLSTACK DEVELOPER</p>
                 </div>
                 <div className='About'>
-               
+                
                 </div>
         </div>
     )
